@@ -33,4 +33,17 @@ class CalculatorTest {
         List<Integer> nums = Arrays.asList(1, 2, 3, null, 4);
         assertEquals(c.sumUp(nums), c.addAll(nums));
     }
+
+    @Test
+    void testAdditionMitNegativenZahlen() {
+        Calculator calculator = new Calculator();
+        assertEquals(-3, calculator.add(-5, 2));
+    }
+
+    @Test 
+    void testAdditionMitNull() {
+        Calculator calculator = new Calculator();
+        assertEquals(7, calculator.add(7, 0));
+    }
+
 }
