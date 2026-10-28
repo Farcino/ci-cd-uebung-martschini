@@ -307,6 +307,10 @@ mvn -q -DskipTests=false test
 
 ---
 
+## Übung 1
+- Autor: <Robin Martschini>
+- Besonderheit: <Git hat uns schon mehrmals den Hintern gerettet. Arbeite gerne wieder damit>
+
 
 ## Ausblick
 - **Übung 2 (4.11.)**: GitHub Actions – Build & Tests automatisiert ausführen; SonarCloud integrieren.
